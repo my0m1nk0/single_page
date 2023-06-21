@@ -27,7 +27,7 @@
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
+  /* -webkit-font-feature-settings: 'liga'; */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -35,7 +35,7 @@
 	font-family: 'roboto',serif;
 }
 html{
-	font-size: 1em; //16px
+	font-size: 1em; 
 }
 nav,
 .service-title,
@@ -72,7 +72,7 @@ nav,
 }
 #contact .contact-form .form-group input,
 #contact .contact-form .form-group textarea,
-#contact .contact-form .form-group .btn,{
+#contact .contact-form .form-group .btn{
   font-size: 1.01rem;
 }
 #contact .contact-form .form-group .btn i{
